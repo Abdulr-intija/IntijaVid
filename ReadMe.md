@@ -5,6 +5,7 @@ The main use of this helper is to play a video with just a single line of code p
 
 # Installation
 [![](https://jitpack.io/v/Abdulr-intija/IntijaVid.svg)](https://jitpack.io/#Abdulr-intija/IntijaVid)
+
 To start using this helper, 
 * Add the Maven JitPack repository to your app's build.gradle file 
 ```
@@ -34,7 +35,7 @@ Create a container in your XML layout where video will be played
  ...
  ```
  
- Then load image into container
+ Then load video into container
  ```
  IntijaVid.with(this).play("http://upnepa.ng/intija/videoplayback.3gp").in(R.id.container);
  ```
