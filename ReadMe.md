@@ -4,10 +4,24 @@ An helper video loader library for the basic function of ExoPlayer
 The main use of this helper is to play a video with just a single line of code preferably in a FrameLayout(other containers can also be used)
 
 # Installation
+[![](https://jitpack.io/v/Abdulr-intija/IntijaVid.svg)](https://jitpack.io/#Abdulr-intija/IntijaVid)
 To start using this helper, 
-* clone the repository import
-OR
-* import as a module
+* Add the Maven JitPack repository to your app's build.gradle file 
+```
+repositories {
+   ...
+   maven { url 'https://jitpack.io' }
+ }
+```
+THEN,
+* add the dependency to the same build.gradle file
+```
+...
+dependencies {
+    ...
+    implementation 'com.github.Abdulr-intija:IntijaVid:1.0'
+  }
+```
 
 # Usage
 Create a container in your XML layout where video will be played
