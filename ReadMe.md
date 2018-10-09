@@ -7,7 +7,7 @@ The main use of this helper is to play a video with just a single line of code p
 [![](https://jitpack.io/v/Abdulr-intija/IntijaVid.svg)](https://jitpack.io/#Abdulr-intija/IntijaVid)
 
 To start using this helper, 
-* Add the Maven JitPack repository to your app's build.gradle file 
+* Add reference to Maven JitPack repository to your app's build.gradle file 
 ```
 repositories {
    ...
@@ -37,11 +37,11 @@ Create a container in your XML layout where video will be played
  
  Then load video into container
  ```
- IntijaVid.with(this).play("http://upnepa.ng/intija/videoplayback.3gp").in(R.id.container);
+ IntijaVid.with(this).play("https://video.com/playback.mp4").in(R.id.container);
  ```
  To hide/show controller simply use
  ```
- IntijaVid.with(this).play("http://upnepa.ng/intija/videoplayback.3gp").control(false).in(R.id.container);
+ IntijaVid.with(this).play("https://video.com/playback.mp4").control(false).in(R.id.container);
  /**
    *where .control(false) simply tells the controller to stay hidden
    *it is set to true by default
